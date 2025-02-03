@@ -54,3 +54,34 @@ h3{
 .offer h3{
     text-align: center;
 }
+#party{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(./images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 140px;
+    padding: 64px 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.party-content{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 50%;
+}
+.party-content h2
+{
+    font-size: 64px;
+}
+.party-content button{
+    width: fit-content;
+    background: none;
+    border: none;
+    color: whitesmoke;
+    margin-top: 24px;
+    font-size: larger;
+    font-weight: 700;
+}
