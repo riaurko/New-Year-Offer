@@ -1,36 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.bloody-bg
-{
+
+.bloody-bg {
     background-color: red;
 }
-.bloody-text
-{
+
+.bloody-text {
     color: red;
 }
-.font-merriweather
-{
+
+.font-merriweather {
     font-family: 'Merriweather', serif;
 }
-.font-inter
-{
+
+.font-inter {
     font-family: 'Inter', sans-serif;
 }
-h1
-{
+
+h1 {
     font-size: 72px;
     width: 50%;
     text-align: center;
 }
-.banner h3{
+
+.banner h3 {
     font-size: 2rem;
 }
-.banner{
-    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(./images/Banner\ Image.png);
+
+.banner {
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(./images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,30 +48,35 @@ h1
     gap: 20px;
 }
 
-.offer{
+.offer {
     display: flex;
     flex-direction: column;
     gap: 48px;
     align-items: center;
     margin-top: 100px;
 }
-.offer-container{
+
+.offer-container {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.offer h2{
+
+.offer h2 {
     font-size: 88px;
 }
-.offer-offer{
+
+.offer-offer {
     font-size: 24px;
 }
-.offer h3{
+
+.offer h3 {
     text-align: center;
 }
-#party{
+
+#party {
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(./images/Vectorrr.png);
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(./images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 100px 140px;
@@ -77,22 +85,24 @@ h1
     align-items: center;
     justify-content: space-around;
 }
-.party-content{
+
+.party-content {
     color: whitesmoke;
     display: flex;
     flex-direction: column;
     gap: 32px;
     width: 50%;
 }
-.party-content h2
-{
+
+.party-content h2 {
     font-size: 64px;
 }
-.party-content p
-{
+
+.party-content p {
     color: #BBB;
 }
-.party-content button{
+
+.party-content button {
     width: fit-content;
     background: none;
     border: none;
@@ -101,6 +111,7 @@ h1
     font-size: larger;
     font-weight: 700;
 }
+
 .address {
     display: flex;
     flex-direction: column;
@@ -108,18 +119,19 @@ h1
     text-align: center;
     gap: 48px;
     margin: 0 140px;
-    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
     border-radius: 16px;
     padding: 100px 0;
 }
+
 .address-content {
     display: flex;
     flex-direction: column;
     gap: 16px;
     font-size: 32px;
 }
-.address button
-{
+
+.address button {
     padding: 16px 32px;
     font-size: larger;
     font-weight: 700;
@@ -128,6 +140,7 @@ h1
     border-radius: 8px;
     text-transform: uppercase;
 }
+
 .event-info {
     display: flex;
     align-items: center;
@@ -135,31 +148,36 @@ h1
     gap: 95px;
     margin: 100px 140px;
 }
+
 .coming-soon {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 33%;
 }
+
 .coming-soon h3 {
     font-size: x-large;
     font-weight: 500;
     text-transform: uppercase;
 }
+
 .coming-soon h2 {
     font-size: 48px;
     font-weight: 900;
 }
+
 .coming-soon p {
     font-size: larger;
     color: #666;
 }
-.event-img
-{
+
+.event-img {
     padding: 40px;
     border: 16px solid red;
     border-radius: 50%;
 }
+
 .event-year {
     align-self: flex-end;
     display: flex;
@@ -167,13 +185,110 @@ h1
     gap: 32px;
     width: 33%;
 }
+
 .event-year h2 {
     font-size: 48px;
 }
+
 .event-year p {
     font-size: larger;
     color: #666;
 }
+
 .event-year img {
     width: fit-content;
+}
+
+.sales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    margin: 100px 140px;
+}
+
+.sale-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    padding: 0 125px;
+}
+
+.sale-content div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.sale-content h2 {
+    font-size: 72px;
+}
+
+.sale-content h4 {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.sale-content p {
+    width: 66%;
+    text-align: center;
+    color: #666;
+    font-weight: 500;
+}
+
+.sale-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.sale-image .gift-disc-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin: 100px 140px;
+}
+
+.product-head {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-head h3 {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.product-head h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.product-head p {
+    width: 50%;
+    color: #666;
+    font-size: larger;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.product-row {
+    display: flex;
+    gap: 24px;
+}
+
+.product-row img {
+    width: 100%;
 }
