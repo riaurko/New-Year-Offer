@@ -139,6 +139,15 @@ h1 {
     border: none;
     border-radius: 8px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.address button:hover {
+    background-color: tomato;
+}
+
+.address button:active {
+    background-color: rgb(200, 0, 0);
 }
 
 .event-info {
@@ -203,7 +212,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 64px;
+    gap: 80px;
     margin: 100px 140px;
 }
 
@@ -241,12 +250,29 @@ h1 {
 .sale-image {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    position: relative;
 }
+
+.gift {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gift img {
+    width: 75%;
+}
+
 
 .sale-image .gift-disc-group {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
+}
+
+.sale-image .sale-red-bg img {
+    width: 100%;
 }
 
 .products {
@@ -291,4 +317,75 @@ h1 {
 
 .product-row img {
     width: 100%;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    background-color: #FF000015;
+    margin: 100px 140px;
+    border-radius: 16px;
+    padding: 80px 210px;
+}
+
+.subs-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.subs-content h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subs-content p {
+    width: 90%;
+    color: #666;
+    text-align: center;
+    font-size: 20px;
+}
+
+.subs-form {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.subs-form input {
+    font-size: large;
+    padding: 24px 36px;
+    border-radius: 40px 0 0 40px;
+    border: none;
+    flex-grow: 1;
+}
+
+.subs-form input:hover {
+    border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.subs-form input:focus {
+    border: 1pt groove red;
+    outline: none;
+}
+
+.subs-form button {
+    color: whitesmoke;
+    font-size: larger;
+    padding: 24px 56px;
+    border-radius: 0 40px 40px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.subs-form button:hover {
+    background-color: tomato;
+}
+
+.subs-form button:active {
+    background-color: rgb(200, 0, 0);
 }
